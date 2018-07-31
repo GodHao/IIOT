@@ -2397,10 +2397,9 @@ table {
 	cursor: pointer;
 	width: 35px;
 	height: 22px;
-	text-indent: -1000px;
 	border-radius: 0 4px 4px 0;
 	padding: 0;
-	background: #565656 url(/public/image/search-btn.png) no-repeat 0 50%
+	color: balck;
 }
 
 #navi {

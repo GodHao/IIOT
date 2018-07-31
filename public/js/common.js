@@ -1,7 +1,7 @@
 /**
- * 时间：2018年7月27日
+ * 时间：2018年7月31日
  * 作者：jimwang
- * 版本：V1.0
+ * 版本：V1.1
  */
 
 //var baseURL = "http://i3r.scu.edu.cn/"; //服务器地址
@@ -58,4 +58,19 @@ var search = function(){
 	    	console("搜索服务器错误，请求失败！");
 	    }
 	});
+}
+
+/**
+ * 导航栏搜索 
+ * from 202.115.35.240 intinfo by Sishang Zhang
+ * @param isClick 是否点击
+ */
+function navbarSearch(isClick){
+	if(event.keyCode==13 || isClick){
+		var searchBar = document.querySelector('[name=search]');
+	    var searchtext = searchBar.value;
+	    window.open('http://202.115.35.240/iot/static/search-result.html?keywords='+searchtext);
+	    searchBar.value = '';
+	}
+	
 }
