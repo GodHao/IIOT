@@ -93,8 +93,8 @@
 						<div class="left-container-home">
 
 							<div class="useful-links">
-								<p class="menu-title-3">常用链接</p>
-								<ul class="hot-list">
+								<p class="menu-title-3">相关信息</p>
+								<ul class="hot-list" id='hotNews'>
 									<li>
 										<a class="link" href="http://www.moe.edu.cn/" target="_blank">中华人民共和国教育部</a>
 									</li>
@@ -127,7 +127,6 @@
 								<a href="javascript:void(0);" class="more-btn-left" onclick="loadPage('news1.html',1);">更多</a>
 							</div>
 							<ul>
-
 								<li>
 									<a href="javascript:void(0);" class="thumb" onclick="loadPage('news2.html',2);"><img style="max-width:100px;max-height:100px" src="upload/image/new1.jpg"></a>
 									<div class="news-info">
@@ -142,7 +141,6 @@
 										</p>
 									</div>
 								</li>
-
 								<li>
 									<a href="javascript:void(0);" class="thumb" onclick="loadPage('news3.html',3);"><img style="max-width:100px;max-height:100px" src="upload/image/new2.jpg"></a>
 									<div class="news-info">
@@ -203,10 +201,10 @@
 		<div style="display:none">
 		    <script type="text/javascript" src="public/js/all.min.js"></script>
 		    <script type="text/javascript" src="public/js/jquery.min.js"></script>
-			<script type="text/javascript" src="public/js/common.js" ></script>
+			<script type="text/javascript" src="public/js/common.js"></script>
 			<script> 
                 var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-				//document.write(unescape("%3Cspan id='cnzz_stat_icon_1253674815'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1253674815' type='text/javascript'%3E%3C/script%3E"));
+				search();
 	        </script>
 		</div>
 	</body>
