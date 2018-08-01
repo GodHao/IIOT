@@ -3323,35 +3323,35 @@ table {
 }
 
 .content-table table{
-	margin:15px auto ;	
+	margin:15px auto ;
 	width: 720px;
-	
+
 }
 
 .content-table table thead{
 	margin-left: 20px;
-	
+
 }
 .content-table table tbody{
-	
+
 }
 
 .content-table table th{
 	text-align: center;
 	height: 40px;
-	
+
 }
 
 .content-table table tr{
 	text-align: center;
 	height: 40px;
-	
+
 }
 
 .content-table table td{
 	text-align: center;
 	height: 40px;
-	
+
 }
 
 
@@ -3370,7 +3370,7 @@ table {
 	display: inline-block;
 	width: 32px;
 	}
-	
+
 .news-list{
 	width: 200px;
 }
@@ -3388,8 +3388,8 @@ table {
 
 .news-list .news-info .news-left-time{
 	position: relative;
-	left: 100px;	
-	
+	left: 100px;
+
 	font-size: 12px;
     color: #444;
 }
@@ -3456,7 +3456,7 @@ table {
 }
 
 .news-content table{
-	margin:15px auto ;	
+	margin:15px auto ;
 	width: 650px;
 }
 
@@ -3469,14 +3469,14 @@ table {
 
 .news-content table td{
 	padding-left: 10px;
-	
+
 	height: 40px;
 	font-size: 14px;
 	line-height: 22px;
 }
 
 .news-content .pra{
-	font-size: 14px;	
+	font-size: 14px;
 }
 
 .news-content .pra i{
@@ -3490,4 +3490,13 @@ table {
 .news-content .format{
 	width: 650px;
 	margin:0 auto;
+}
+
+/* 20180801*/
+#slider{
+	overflow:hidden;
+}
+.slider-wrapper{
+	float:right;
+	width:740px;
 }
